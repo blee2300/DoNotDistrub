@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/DoNotDisturbbackground">
+
+    <TextView
+        android:id="@+id/Home"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:text="Home"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/Settings2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox2"
+        android:text="Setting"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/CreateSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox2"
+        android:text="Create Session"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/JoinSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox2"
+        android:text="Join Session"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+</android.support.constraint.ConstraintLayout>

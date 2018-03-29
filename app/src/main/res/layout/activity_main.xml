@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/DoNotDisturbbackground">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/Textbox1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="47dp"
+        android:layout_height="24dp"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="328dp"
+        android:layout_height="49dp"
+        android:background="@drawable/Textbox1"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="79dp"
+        android:layout_height="30dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/ForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox2"
+        android:text="Forgot Password"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox2"
+        android:text="Login"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+
+    <Button
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox1"
+        android:text="Create New Account"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+</android.support.constraint.ConstraintLayout>

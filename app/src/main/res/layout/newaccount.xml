@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/DoNotDisturbbackground">
+
+
+    <TextView
+        android:id="@+id/Fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/Lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/FnameInput"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Textbox2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First name "
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/LnameInput"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:background="@drawable/Textbox2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name "
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/EmInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Textbox1"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/PassInput"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <Button
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="472dp" />
+</android.support.constraint.ConstraintLayout>
